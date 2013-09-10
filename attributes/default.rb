@@ -5,3 +5,5 @@ default['rails-lastmile']['ruby_version'] = "1.9.3-p385"
 default['rails-lastmile']['reset_db'] = false
 
 default['rails-lastmile']['environment'] = 'development'
+
+#default['unicorn']['worker_processes'] = "6"
