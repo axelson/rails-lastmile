@@ -100,6 +100,9 @@ In order to use with vagrant make a Vagrantfile something like this:
   end
 ```
 
+Other optional configurations:
+* 'nginx_extra_options' - Added to nginx config file for site
+
 Don't forget that you need to have the unicorn gem in your Gemfile.
 Last thing to do is boot up the virtual machine. With the command `vagrant up`
 
